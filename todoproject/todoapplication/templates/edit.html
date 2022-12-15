@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+        <form method="post" action="{% url 'formupdate' data.id %}" >
+            {% csrf_token %}
+            <div class="mb-3">
+              <label for="exampleInputtask" class="form-label">Task</label>
+              <input type="text" class="form-control" id="exampleInputtask" name="task" value={{data.name}}>
+              <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputdate" class="form-label">Date</label>
+              <input type="date" class="form-control" id="exampleInputdate" name="date"value={{data.date}}>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputprio" class="form-label">Priority</label>
+              <input type="text" class="form-control" id="exampleInputprio" name="Priority" value={{data.priority}}>
+            </div>
+  
+            <div class="sub" style="margin-right:120px;">
+              <button type="submit" class="btn btn-light">Submit</button>
+            </div>
+          </form>
+        
+  
+</body>
+</html>

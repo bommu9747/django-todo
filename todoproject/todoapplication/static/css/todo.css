@@ -1,0 +1,39 @@
+.one{
+    /* background-image: url(../image/double3.jpg); */
+    background-color: black;
+    /* height: 550px; */
+    width:100%;
+    /* margin-left: 240px; */
+     /* opacity: 0.9;  */
+    border-radius: 40px;
+    border: 3px solid rgb(114, 114, 190);
+    -webkit-box-shadow:0px -1px 25px rgba(0,0,0,0.5), 0px 1px 5px rgba(0,0,0,0.7);
+                  -moz-box-shadow:0px -1px 15px rgba(0,0,0,0.5), 0px 1px 5px rgba(0,0,0,0.7);
+                  box-shadow:0px -1px 5px rgba(0,0,0,0.5), 0px 1px 5px rgba(0,0,0,0.7);
+}
+.mb-3{
+    margin-left: 100px;
+    margin-top: 40px;
+    /* background-color: blue; */
+    opacity: 0.8;
+    text-align: center;
+    color: bisque;
+    border-radius: 40px;
+    /* border: 2px solid blue; */
+}
+.sub{
+    margin-left: 200px;
+    color:darkblue;
+    font-size: medium;
+    
+
+
+}
+.row{
+    text-align:center;
+    font-size: x-large;
+    font-style:oblique;
+    color: bisque;
+    
+  
+}
